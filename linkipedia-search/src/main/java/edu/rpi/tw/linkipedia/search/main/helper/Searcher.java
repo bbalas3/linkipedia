@@ -55,6 +55,15 @@ public class Searcher {
 			//EntityLinking(index);
 		}
 	}
+	
+	/**
+	 * This method looks for the surface form for entities from label, name, 
+	 * URL, abbreviations, etc.
+	 * 
+	 * @param index           surface form index where we can search from.
+	 * @exception IOException generic exception.
+	 */
+	
 	public static void SurfaceFormSearch(String index){
 		try {
 		SurfaceFormSearcher searcher = new SurfaceFormSearcher(index);
@@ -76,6 +85,15 @@ public class Searcher {
 			e1.printStackTrace();
 		}
 	}
+	
+	/**
+	 * This method searches for the concept mentions that provide the context information.
+	 * It searches only the first concept mention.
+	 * 
+	 * @param index           index where from which search is done. Sorted by Subject.
+	 * @exception IOException generic exception.
+	 */
+	
 	public static void EntitySearch(String index){
 	    try {
 	    	EntitySearcher searcher = new EntitySearcher(index);
@@ -106,6 +124,13 @@ public class Searcher {
 			e1.printStackTrace();
 		}
 	}
+	
+	/**
+	 * This method links all the concept mentions in the query to the knowledge base.
+	 * 
+	 * @param index           index where from which search is done. Sorted by Subject.
+	 * @exception IOException generic exception.
+	 */
 	
 	public static void EntityLinking(String index){
 	    try {

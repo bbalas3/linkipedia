@@ -17,6 +17,8 @@
 
 package edu.rpi.tw.linkipedia.search.main.helper;
 
+import java.io.IOException;
+
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
@@ -66,6 +68,18 @@ public class EntityServletContext {
         server.start();
         server.join();
     }
+    
+    /**
+     * This method is used to start the servlet, after which, linking or 
+     * searching can be performed.
+     * 
+     * @param index            knowledge index.
+     * @param surfaceFormIndex surface form index, built from the processed 
+     *                         N&#45;triple file containing only surface form information.
+     * @param port             default 8080.
+     * @exception Exception    generic exception.
+     */
+	
     
     public static void startServlet(String index, String surfaceFormIndex, int port){
 		try{

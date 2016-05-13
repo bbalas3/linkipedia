@@ -87,17 +87,48 @@ public class IndexData {
 	/*
 	 * Assume both surface form file and entity weight file are sorted 
 	 */
+	/**
+	 * This method creates the surface form index used for searching.
+	 * 
+	 * @param inputfile          processed N&#45;triple file, sorted by subject, 
+	 *                           containing only surface form information.
+	 * @param outputfile         file containing surface form index.
+	 * @param entityweightfile   entropy based ranking for entities.
+	 * @param propertyweightfile information entropy for properties.
+	 */
+	
 	public static void indexSurfaceForm(String inputfile, String outputfile, String entityweightfile, String propertyweightfile){
 		SurfaceFormIndexer sfIndexer = new SurfaceFormIndexer(inputfile, outputfile);
 		sfIndexer.setEntityWeightFile(entityweightfile);
 		sfIndexer.setPropertyWeight(propertyweightfile);
 		sfIndexer.createIndex();
 	}
+	
+	/**
+	 * This method creates the entity index and gives the final knowledge base 
+	 * that can be used for linking and searching.
+	 * @param inputfile    all entities in N&#45;triple format sorted by subject.
+	 * @param outputfile   final knowledge base for linking and searching purpose.
+	 * @param surfaceIndex surface form index from where searching is performed.
+	 * @param weightfile   information entropy for properties.
+	 */
+	
 	public static void indexEntity(String inputfile, String outputfile, String surfaceIndex, String weightfile){
 		EntityIndexer entityIndexer = new EntityIndexer(inputfile, outputfile, surfaceIndex);
 		entityIndexer.setWeightFile(weightfile);
 		entityIndexer.createIndex();
 	}
+	
+	/**
+	 * This method updates the entity index.
+	 * 
+	 * @param inputfile      input file with all entities in N&#45;triple format sorted by subject.
+	 * @param entityIndex    final knowledge base for linking and searching purpose.
+	 * @param surfaceIndex   surface form index from where searching is performed.
+	 * @param propertyWeight information entropy for properties.
+	 * @param entityWeight   entropy based ranking for entities.
+	 */
+	
 	public static void updateEntityIndex(String inputfile, String entityIndex, String surfaceIndex, String propertyWeight, String entityWeight){
 		SurfaceFormIndexUpdater sfUpdater = new SurfaceFormIndexUpdater(inputfile, surfaceIndex);
 		sfUpdater.setEntityWeightFile(entityWeight);

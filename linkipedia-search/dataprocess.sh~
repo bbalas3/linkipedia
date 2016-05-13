@@ -4,8 +4,7 @@ INDEX=$1
 
 LINKIPEDIA_JAR=$PWD/target/linkipedia-search-1.0-SNAPSHOT-jar-with-dependencies.jar
 
-#JAVA_OPTS='-Xms2560m -Xmx5120m'
-JAVA_OPTS='-Xms1280m -Xmx2560m'
+JAVA_OPTS='-Xms2560m -Xmx5120m'
 
 LINKIPEDIA_CMD="java $JAVA_OPTS -jar $LINKIPEDIA_JAR"
 

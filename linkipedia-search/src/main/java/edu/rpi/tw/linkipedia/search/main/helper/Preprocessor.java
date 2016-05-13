@@ -34,11 +34,16 @@ import edu.rpi.tw.linkipedia.search.utils.Utils;
 public class Preprocessor {
 
 	/**
+	 * This method obtains surface form property and performs content processing.
+	 * <p>
 	 * A known bug: list of canadian football league seasons" . need to remove "
 	 * . assume inputfile in n triple format //need to handle redirects and
 	 * disambiguates
 	 * 
-	 * @param inputfile
+	 * @param inputfile                 ontologies in rdf or owl or ttl formats.
+	 * @param outputUnsortFile          unsorted output file.
+	 * @param surfaceFormPropertiesFile surface form property.
+	 * @exception Exception             generic exception.
 	 */
 	public static void preprocessAll(String inputfile, String outputUnsortFile, String surfaceFormPropertiesFile) {
 		ArrayList<String> surfaceFormPorperties = new ArrayList<String>();
@@ -239,11 +244,13 @@ public class Preprocessor {
 	}
 
 	/**
-	 * input file is sorted by subject, (getLabelsFromURL included)
+	 * This method gets all the surface form for entities.
+	 * The input file is sorted by subject.
 	 * 
-	 * @param inputfile
-	 * @param properties
-	 * @param outputfile
+	 * @param inputfile     N&#45;triple file, sorted by subject.
+	 * @param properties    properties file.
+	 * @param outputfile    unsorted surface form file.
+	 * @exception Exception generic exception.
 	 */
 	public static void getSurfaceFormData(String inputfile, ArrayList<String> properties, String outputfile) {
 		try {
@@ -292,6 +299,14 @@ public class Preprocessor {
 
 	/*
 	 * Assume input file format: N-triple without last dot
+	 */
+	/**
+	 * This method takes as input an N&#45;triple file, adds inverse property, and
+	 * creates a new triple.
+	 * 
+	 * @param inputfile     N&#45;triple file.
+	 * @param outputfile    N&#45;triple file with inverse property added.
+	 * @exception Exception generic exception.
 	 */
 	public static void addInverseProperty(String inputfile, String outputfile) {
 
@@ -361,6 +376,13 @@ public class Preprocessor {
 	 * 
 	 * }catch(Exception e){ e.printStackTrace(); } }
 	 */
+	/**
+	 * This method does the lexical data clean up.
+	 * 
+	 * @param inputfile     N&#45;triple file.
+	 * @param outputfile    N&#45;triple file with junk characters removed.
+	 * @exception Exception generic exception.
+	 */
 	public static void removeChars(String inputfile, String outputfile) {
 		try {
 			FileInputStream fstream = new FileInputStream(inputfile);
@@ -407,10 +429,12 @@ public class Preprocessor {
 	}
 
 	/**
-	 * input file sort by subject
+	 * This method generates surface form from URL. 
+	 * It converts the URL names to phrases to obtain surface form.
 	 * 
-	 * @param inputfile
-	 * @param outputfile
+	 * @param inputfile     N&#45;triple file, sorted by subject.
+	 * @param outputfile    file with surface forms.
+	 * @exception Exception generic exception.
 	 */
 	public static void getLabelsFromURL(String inputfile, String outputfile) {
 		try {
@@ -456,6 +480,14 @@ public class Preprocessor {
 	/*
 	 * why some entity entropy is 1? -- possible bug file sorted by object,
 	 * assume propertyWeight/entropy computed
+	 */
+	/**
+	 * This method computes entropy based rankings for entities.
+	 * 
+	 * @param inputfile          N&#45;triple file sorted by object.
+	 * @param outputfile         file with weights for entities.
+	 * @param propertyWeightFile input file with property weight.
+	 * @exception Exception      generic exception.
 	 */
 	public static void computeEntityEntropyWeights(String inputfile, String outputfile, String propertyWeightFile) {
 		try {
@@ -541,6 +573,13 @@ public class Preprocessor {
 	/*
 	 * Assume input file is sorted by property
 	 */
+	/**
+	 * This method computes the information entropy for properties.
+	 * 
+	 * @param inputfile     N&#45;triple file sorted by property.
+	 * @param outputfile    file with property entropy.
+	 * @exception Exception generic exception.
+	 */
 	public static void computePropertyEntropy(String inputfile, String outputfile) {
 		try {
 			FileInputStream fstream = new FileInputStream(inputfile);
@@ -599,6 +638,14 @@ public class Preprocessor {
 	/*
 	 * Assume input file is a list of objects that other entities is pointed to
 	 */
+	/**
+	 * This method is used to obtain weights for the list of objects that other entities 
+	 * are pointed to.
+	 * 
+	 * @param inputfile     file with a list of objects that other entities are pointed to.
+	 * @param outputfile    file with weights for each object.
+	 * @exception Exception generic exception.
+	 */
 	public static void computeEntityWeights(String inputfile, String outputfile) {
 
 		try {
@@ -635,8 +682,16 @@ public class Preprocessor {
 	}
 
 	/**
+	 * This method retrieves all the blank node triples and processes them.
+	 * <p>
+	 * Checks for the blank node in the subject position as well as in the object 
+	 * position and selects them for processing.
 	 * Process owl:restrictions on someValuesFrom and allValuesFrom:
-	 * experimental Process 1 level
+	 * experimental Process 1 level.
+	 * 
+	 * @param inputfile     N&#45;triple file.
+	 * @param outputfile    processed N&#45;triple file which is sorted.
+	 * @exception Exception generic exception.
 	 */
 
 	public static void processValueRestriction(String inputfile, String outputfile) {

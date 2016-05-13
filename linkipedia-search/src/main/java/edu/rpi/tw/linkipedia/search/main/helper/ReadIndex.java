@@ -81,6 +81,15 @@ public class ReadIndex {
 			e.printStackTrace();
 		}
 	}
+	
+	/**
+	 * This method reads the knowledge base to see what is indexed. 
+	 * It is used in entity checking.
+	 * 
+	 * @param index           knowledge index.
+	 * @exception IOException generic exception.
+	 */
+	
 	public static void readIndex(String index){
 		try{
 			IndexReader reader = DirectoryReader.open(FSDirectory.open(new File(index)));

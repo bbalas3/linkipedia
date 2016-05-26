@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns1="http://example.namespace/ex1/prop#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Breakdown of how samples were processed and size fractionated">
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Sample Date"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Site"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Sample processing notes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308162593058">
+    <ns1:hasMeasurementType rdf:resource="http://example.namespace/ex1/prop#user defined"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Area sampled (cm^2)">
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#This is the area of the benthos that was sampled for a given sample."/>
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#The sample area"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Site">
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#Study site name"/>
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#Name of the study site"/>
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#This is the RCC study site"/>
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#This is the name of the study site."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Sample ID">
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#This is the unique identifier for each sample."/>
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#These are the sample identifications that were recorded off of the lab datasheets. Note that some sites and year do not exhibit consecutive sampling numbers. When a detrital depletion sample was taken, the first number in the column is the dome sample number. The second number is the detrital sample number. The samples with the 'a' designation are the samples used for invertebrate calculations. The samples with the 'b' or 'c' designation are the detrital depletion samples that were not used in the invertebrate calculations."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Salmon River RCC Invertebrate MORPHO.xlsx">
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Habitat Notes"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Day"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Year"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Sample Type"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Sample ID"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Order"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#ID notes"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Date"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Area sampled (cm^2)"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop## in Size Fraction ≥1mm or ≥500um (# per sample)"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Site"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop## in Size Fraction ≤1mm and ≥100µm (# per sample)"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Genus"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Family"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Species"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Sampler type"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Month"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Habitat"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Stage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308162593052">
+    <ns1:hasMeasurementType rdf:resource="http://example.namespace/ex1/prop#MM-DD-YYYY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Nearby feature">
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#This provides a nearby reference point for each study reach."/>
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#Geographic reference point for each study site."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308162593062">
+    <ns1:hasMeasurementUnit rdf:resource="http://example.namespace/ex1/prop#number per sample"/>
+    <ns1:hasMeasurementNumType rdf:resource="http://example.namespace/ex1/prop#whole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Lat Dec">
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#Latitude of Study Site"/>
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#These are the latitude measurements for the study site."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308162593063">
+    <ns1:hasMeasurementNumType rdf:resource="http://example.namespace/ex1/prop#whole"/>
+    <ns1:hasMeasurementUnit rdf:resource="http://example.namespace/ex1/prop#number per sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Sample Type">
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#This the sample type of the specific sample"/>
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#Two types of samples were identified. Invert samples are the ones that were used for the invertebrate assemblage calculations. The detrital depletion are replicate samples at the dome sampling sites, which were not used in the invertebrate calculations."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308162593056">
+    <ns1:hasMeasurementType rdf:resource="http://example.namespace/ex1/prop#user defined"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Mainstem GPS locations MORPHO.xls">
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Lat Dec"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Long Dec"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Station"/>
+    <ns1:hasAttributeName rdf:resource="http://example.namespace/ex1/prop#Nearby feature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#RowClass">
+    <ns1:hasDataTable rdf:resource="http://example.namespace/ex1/prop#1308162593047"/>
+    <ns1:hasDataTable rdf:resource="http://example.namespace/ex1/prop#1308085022930"/>
+    <ns1:hasDataTable rdf:resource="http://example.namespace/ex1/prop#1308246069122"/>
+    <rdfs:comment>The data presented here represent the benthic macroinvertebrate data collected in 1976 and 1977 along the Salmon River mainstem. These data were part of the original river continuum concept (RCC) project. Seven sites were sampled seasonally over the two year period. Four sites on the upper Salmon River mainstem (i.e., Camp, Smiley, Obsidian, and Casino) were sampled in March and July of 1976. Four sites on the mid to lower Salmon River were sampled in March/April, July, and September/October of 1977 (i.e., Casino, Deadman's hole, Shoup, and Slate). However, only Shoup and Slate were processed during the July 1977 sampling trip. Additional samples (i.e., transport and benthic organic matter) were sampled during other trips, but the data presented here are the only seasonal samples that were processed for invertebrates. Samples were collected either via a 'dustpan-kicknet' (1976) or a dome sampler (1977). Invertebrates were identified and counted. As the methods differ between years, interannual differences can only be compared based on relative abundance. These data are the basis for the following manuscripts. Minshall, G. W., J. T. Brock, and T. W. Lapoint. 1982. Characterization and dynamics of benthic organic-matter and invertebrate functional feeding group relationships in the upper Salmon River, Idaho (USA). Internationale Revue der Gesamten Hydrobiologie 67:793-820. Minshall, G. W., R. C. Petersen, T. L. Bott, C. E. Cushing, K. W. Cummins, R. L. Vannote, and J. R. Sedell. 1992. Stream ecosystem dynamics of the Salmon River, Idaho: An 8th order system. Journal of the North American Benthological Society 11:111-137. Minshall, G. W., R. C. Petersen, K. W. Cummins, T. L. Bott, J. R. Sedell, C. E. Cushing, and R. L. Vannote. 1983. Interbiome comparison of stream ecosystem dynamics. Ecological Monographs 53:1-25.</rdfs:comment>
+    <rdfs:label>Salmon River RCC Benthic Invertebrate Data</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop## in Size Fraction ≥1mm or ≥500um (# per sample)">
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#Abundance of individuals in the large size fraction"/>
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#This is the number of individuals per sample. In 1976, this was defined as individuals ≥ 1mm. In 1977, this was defined as individuals ≥ 500micrometers."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308162593066">
+    <ns1:hasMeasurementType rdf:resource="http://example.namespace/ex1/prop#user defined"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308085022932">
+    <ns1:hasMeasurementNumType rdf:resource="http://example.namespace/ex1/prop#real"/>
+    <ns1:hasMeasurementUnit rdf:resource="http://example.namespace/ex1/prop#degree"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308162593047">
+    <ns1:hasEntityDescription rdf:resource="http://example.namespace/ex1/prop#These are the benthic invertebrate samples that were collected during the original river continuum concept (RCC) project. Samples were collected at 7 locations along the Salmon River mainstem."/>
+    <ns1:hasEntity rdf:resource="http://example.namespace/ex1/prop#Salmon River RCC Invertebrate MORPHO.xlsx"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#ID notes">
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#Notes about the old taxonomic name for a particular organism"/>
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#Between the 1970s and the present, taxonomic names have changed. The name reported here is the name originally reported in the RCC publications, which has been updated in the genus column."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Station">
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#Study Site Location Names"/>
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#These are the actual study site locations."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308162593050">
+    <ns1:hasMeasurementType rdf:resource="http://example.namespace/ex1/prop#MM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Month">
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#This is the particular month that a sample was collected."/>
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#This is the month that a sample was collected."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308085022933">
+    <ns1:hasMeasurementUnit rdf:resource="http://example.namespace/ex1/prop#degree"/>
+    <ns1:hasMeasurementNumType rdf:resource="http://example.namespace/ex1/prop#real"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Habitat">
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#Habitat type where the sample was taken."/>
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#This is the habitat type where a specific sample was taken."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Sample Date">
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#The date a sample was taken"/>
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#This is the date that sample was collected"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308162593051">
+    <ns1:hasMeasurementType rdf:resource="http://example.namespace/ex1/prop#DD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Date">
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#This is the date that a sample was collected."/>
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#This is the specific date that a sample was collected."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Habitat Notes">
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#Notes on the substrate and habitat of a particular sample"/>
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#This reports the dominant substrate or habitat that was present at a given sampling location. Also, this indicates which invert sample that a detrital depletion sample was coupled with."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Genus">
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#Taxonomic genus"/>
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#This is the genus that an individual was classified as"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Year">
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#This is the specific year that a sample was collected."/>
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#This is the year that the sample was collected."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308246069122">
+    <ns1:hasEntityDescription rdf:resource="http://example.namespace/ex1/prop#This is a table that summarizes how and which samples were size fractionated each year"/>
+    <ns1:hasEntity rdf:resource="http://example.namespace/ex1/prop#Breakdown of how samples were processed and size fractionated"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308162593060">
+    <ns1:hasMeasurementType rdf:resource="http://example.namespace/ex1/prop#user defined"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop## in Size Fraction ≤1mm and ≥100µm (# per sample)">
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop## in the smaller size fraction"/>
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#This is the total number of individuals of a particular taxonomic group that was found in the smaller size fraction of that sample. In 1977, this was defined as ≤500micrometer and ≥100micrometer. This size fraction was not collected during 1976."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308162593049">
+    <ns1:hasMeasurementType rdf:resource="http://example.namespace/ex1/prop#YYYY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308085022934">
+    <ns1:hasMeasurementType rdf:resource="http://example.namespace/ex1/prop#User defined"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308162593064">
+    <ns1:hasMeasurementUnit rdf:resource="http://example.namespace/ex1/prop#squareCentimeters"/>
+    <ns1:hasMeasurementNumType rdf:resource="http://example.namespace/ex1/prop#whole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Day">
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#This is the day of the month that a sample was collected."/>
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#This is the day of the month that a particular sample was collected."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308246069169">
+    <ns1:hasMeasurementType rdf:resource="http://example.namespace/ex1/prop#user defined"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Stage">
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#This is the development stage that an individual was classified as. adult, nymph, larvae, or pupae"/>
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#Development stage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308085022930">
+    <ns1:hasEntity rdf:resource="http://example.namespace/ex1/prop#Mainstem GPS locations MORPHO.xls"/>
+    <ns1:hasEntityDescription rdf:resource="http://example.namespace/ex1/prop#These are the GPS coordinates of the RCC study sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308085022931">
+    <ns1:hasMeasurementType rdf:resource="http://example.namespace/ex1/prop#Study Site Locations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308246069137">
+    <ns1:hasMeasurementType rdf:resource="http://example.namespace/ex1/prop#MM-YYYY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Sample processing notes">
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#Notes on how and which samples were size fractionated"/>
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#This describes the sampling method used. It also indicates which samples were size fractionated and picked."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Order">
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#This is the taxonomic order that a particular individual belonged to"/>
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#Taxonomic order"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Sampler type">
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#This is the type of instrument used to collect the sample. In 1976, a modified kicknet was used. In 1977, a dome sampler was used."/>
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#This is the type of sample instrument used"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308246069153">
+    <ns1:hasMeasurementType rdf:resource="http://example.namespace/ex1/prop#user defined"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Species">
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#Taxomic species designation"/>
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#This is the species name of the particular organism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Family">
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#This is the taxonomic family that an individual was classified as"/>
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#Taxonomic family"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308162593055">
+    <ns1:hasMeasurementType rdf:resource="http://example.namespace/ex1/prop#User defined"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308162593065">
+    <ns1:hasMeasurementType rdf:resource="http://example.namespace/ex1/prop#user defined"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#Long Dec">
+    <ns1:hasAttributeDefinition rdf:resource="http://example.namespace/ex1/prop#Longitude of the study site"/>
+    <ns1:hasAttributeLabel rdf:resource="http://example.namespace/ex1/prop#Longitude of the study site"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308162593048">
+    <ns1:hasMeasurementType rdf:resource="http://example.namespace/ex1/prop#User defined."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308162593054">
+    <ns1:hasMeasurementType rdf:resource="http://example.namespace/ex1/prop#User defined."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308162593059">
+    <ns1:hasMeasurementType rdf:resource="http://example.namespace/ex1/prop#user defined"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308162593061">
+    <ns1:hasMeasurementType rdf:resource="http://example.namespace/ex1/prop#user defined"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308162593053">
+    <ns1:hasMeasurementType rdf:resource="http://example.namespace/ex1/prop#User defined"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.namespace/ex1/prop#1308162593057">
+    <ns1:hasMeasurementType rdf:resource="http://example.namespace/ex1/prop#User defined"/>
+  </rdf:Description>
+</rdf:RDF>

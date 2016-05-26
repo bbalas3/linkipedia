@@ -1,0 +1,120 @@
+RowClass	rdfs:label	Salmon River RCC Benthic Invertebrate Data
+RowClass	rdfs:comment	The data presented here represent the benthic macroinvertebrate data collected in 1976 and 1977 along the Salmon River mainstem. These data were part of the original river continuum concept (RCC) project. Seven sites were sampled seasonally over the two year period. Four sites on the upper Salmon River mainstem (i.e., Camp, Smiley, Obsidian, and Casino) were sampled in March and July of 1976. Four sites on the mid to lower Salmon River were sampled in March/April, July, and September/October of 1977 (i.e., Casino, Deadman's hole, Shoup, and Slate). However, only Shoup and Slate were processed during the July 1977 sampling trip. Additional samples (i.e., transport and benthic organic matter) were sampled during other trips, but the data presented here are the only seasonal samples that were processed for invertebrates. Samples were collected either via a 'dustpan-kicknet' (1976) or a dome sampler (1977). Invertebrates were identified and counted. As the methods differ between years, interannual differences can only be compared based on relative abundance. These data are the basis for the following manuscripts. Minshall, G. W., J. T. Brock, and T. W. Lapoint. 1982. Characterization and dynamics of benthic organic-matter and invertebrate functional feeding group relationships in the upper Salmon River, Idaho (USA). Internationale Revue der Gesamten Hydrobiologie 67:793-820. Minshall, G. W., R. C. Petersen, T. L. Bott, C. E. Cushing, K. W. Cummins, R. L. Vannote, and J. R. Sedell. 1992. Stream ecosystem dynamics of the Salmon River, Idaho: An 8th order system. Journal of the North American Benthological Society 11:111-137. Minshall, G. W., R. C. Petersen, K. W. Cummins, T. L. Bott, J. R. Sedell, C. E. Cushing, and R. L. Vannote. 1983. Interbiome comparison of stream ecosystem dynamics. Ecological Monographs 53:1-25.
+RowClass	hasDataTable	1308085022930
+1308085022930	hasEntity	Mainstem GPS locations MORPHO.xls
+1308085022930	hasEntityDescription	These are the GPS coordinates of the RCC study sites
+1308085022931	hasMeasurementType	Study Site Locations
+1308085022932	hasMeasurementUnit	degree
+1308085022932	hasMeasurementNumType	real
+1308085022933	hasMeasurementUnit	degree
+1308085022933	hasMeasurementNumType	real
+1308085022934	hasMeasurementType	User defined
+Mainstem GPS locations MORPHO.xls	hasAttributeName	Station
+Station	hasAttributeLabel	Study Site Location Names
+Station	hasAttributeDefinition	These are the actual study site locations.
+Mainstem GPS locations MORPHO.xls	hasAttributeName	Lat Dec
+Lat Dec	hasAttributeLabel	Latitude of Study Site
+Lat Dec	hasAttributeDefinition	These are the latitude measurements for the study site.
+Mainstem GPS locations MORPHO.xls	hasAttributeName	Long Dec
+Long Dec	hasAttributeLabel	Longitude of the study site
+Long Dec	hasAttributeDefinition	Longitude of the study site
+Mainstem GPS locations MORPHO.xls	hasAttributeName	Nearby feature
+Nearby feature	hasAttributeLabel	Geographic reference point for each study site.
+Nearby feature	hasAttributeDefinition	This provides a nearby reference point for each study reach.
+RowClass	hasDataTable	1308162593047
+1308162593047	hasEntity	Salmon River RCC Invertebrate MORPHO.xlsx
+1308162593047	hasEntityDescription	These are the benthic invertebrate samples that were collected during the original river continuum concept (RCC) project. Samples were collected at 7 locations along the Salmon River mainstem.
+1308162593048	hasMeasurementType	User defined.
+1308162593049	hasMeasurementType	YYYY
+1308162593050	hasMeasurementType	MM
+1308162593051	hasMeasurementType	DD
+1308162593052	hasMeasurementType	MM-DD-YYYY
+1308162593053	hasMeasurementType	User defined
+1308162593054	hasMeasurementType	User defined.
+1308162593055	hasMeasurementType	User defined
+1308162593056	hasMeasurementType	user defined
+1308162593057	hasMeasurementType	User defined
+1308162593058	hasMeasurementType	user defined
+1308162593059	hasMeasurementType	user defined
+1308162593060	hasMeasurementType	user defined
+1308162593061	hasMeasurementType	user defined
+1308162593062	hasMeasurementUnit	number per sample
+1308162593062	hasMeasurementNumType	whole
+1308162593063	hasMeasurementUnit	number per sample
+1308162593063	hasMeasurementNumType	whole
+1308162593064	hasMeasurementUnit	squareCentimeters
+1308162593064	hasMeasurementNumType	whole
+1308162593065	hasMeasurementType	user defined
+1308162593066	hasMeasurementType	user defined
+Salmon River RCC Invertebrate MORPHO.xlsx	hasAttributeName	Site
+Site	hasAttributeLabel	Name of the study site
+Site	hasAttributeDefinition	This is the name of the study site.
+Salmon River RCC Invertebrate MORPHO.xlsx	hasAttributeName	Year
+Year	hasAttributeLabel	This is the year that the sample was collected.
+Year	hasAttributeDefinition	This is the specific year that a sample was collected.
+Salmon River RCC Invertebrate MORPHO.xlsx	hasAttributeName	Month
+Month	hasAttributeLabel	This is the month that a sample was collected.
+Month	hasAttributeDefinition	This is the particular month that a sample was collected.
+Salmon River RCC Invertebrate MORPHO.xlsx	hasAttributeName	Day
+Day	hasAttributeLabel	This is the day of the month that a sample was collected.
+Day	hasAttributeDefinition	This is the day of the month that a particular sample was collected.
+Salmon River RCC Invertebrate MORPHO.xlsx	hasAttributeName	Date
+Date	hasAttributeLabel	This is the date that a sample was collected.
+Date	hasAttributeDefinition	This is the specific date that a sample was collected.
+Salmon River RCC Invertebrate MORPHO.xlsx	hasAttributeName	Sample ID
+Sample ID	hasAttributeLabel	This is the unique identifier for each sample.
+Sample ID	hasAttributeDefinition	These are the sample identifications that were recorded off of the lab datasheets. Note that some sites and year do not exhibit consecutive sampling numbers. When a detrital depletion sample was taken, the first number in the column is the dome sample number. The second number is the detrital sample number. The samples with the 'a' designation are the samples used for invertebrate calculations. The samples with the 'b' or 'c' designation are the detrital depletion samples that were not used in the invertebrate calculations.
+Salmon River RCC Invertebrate MORPHO.xlsx	hasAttributeName	Sample Type
+Sample Type	hasAttributeLabel	This the sample type of the specific sample
+Sample Type	hasAttributeDefinition	Two types of samples were identified. Invert samples are the ones that were used for the invertebrate assemblage calculations. The detrital depletion are replicate samples at the dome sampling sites, which were not used in the invertebrate calculations.
+Salmon River RCC Invertebrate MORPHO.xlsx	hasAttributeName	Sampler type
+Sampler type	hasAttributeLabel	This is the type of sample instrument used
+Sampler type	hasAttributeDefinition	This is the type of instrument used to collect the sample. In 1976, a modified kicknet was used. In 1977, a dome sampler was used.
+Salmon River RCC Invertebrate MORPHO.xlsx	hasAttributeName	Habitat
+Habitat	hasAttributeLabel	Habitat type where the sample was taken.
+Habitat	hasAttributeDefinition	This is the habitat type where a specific sample was taken.
+Salmon River RCC Invertebrate MORPHO.xlsx	hasAttributeName	Order
+Order	hasAttributeLabel	Taxonomic order
+Order	hasAttributeDefinition	This is the taxonomic order that a particular individual belonged to
+Salmon River RCC Invertebrate MORPHO.xlsx	hasAttributeName	Family
+Family	hasAttributeLabel	Taxonomic family
+Family	hasAttributeDefinition	This is the taxonomic family that an individual was classified as
+Salmon River RCC Invertebrate MORPHO.xlsx	hasAttributeName	Genus
+Genus	hasAttributeLabel	Taxonomic genus
+Genus	hasAttributeDefinition	This is the genus that an individual was classified as
+Salmon River RCC Invertebrate MORPHO.xlsx	hasAttributeName	Species
+Species	hasAttributeLabel	Taxomic species designation
+Species	hasAttributeDefinition	This is the species name of the particular organism
+Salmon River RCC Invertebrate MORPHO.xlsx	hasAttributeName	Stage
+Stage	hasAttributeLabel	Development stage
+Stage	hasAttributeDefinition	This is the development stage that an individual was classified as. adult, nymph, larvae, or pupae
+Salmon River RCC Invertebrate MORPHO.xlsx	hasAttributeName	# in Size Fraction ≥1mm or ≥500um (# per sample)
+# in Size Fraction ≥1mm or ≥500um (# per sample)	hasAttributeLabel	Abundance of individuals in the large size fraction
+# in Size Fraction ≥1mm or ≥500um (# per sample)	hasAttributeDefinition	This is the number of individuals per sample. In 1976, this was defined as individuals ≥ 1mm. In 1977, this was defined as individuals ≥ 500micrometers.
+Salmon River RCC Invertebrate MORPHO.xlsx	hasAttributeName	# in Size Fraction ≤1mm and ≥100µm (# per sample)
+# in Size Fraction ≤1mm and ≥100µm (# per sample)	hasAttributeLabel	# in the smaller size fraction
+# in Size Fraction ≤1mm and ≥100µm (# per sample)	hasAttributeDefinition	This is the total number of individuals of a particular taxonomic group that was found in the smaller size fraction of that sample. In 1977, this was defined as ≤500micrometer and ≥100micrometer. This size fraction was not collected during 1976.
+Salmon River RCC Invertebrate MORPHO.xlsx	hasAttributeName	Area sampled (cm^2)
+Area sampled (cm^2)	hasAttributeLabel	The sample area
+Area sampled (cm^2)	hasAttributeDefinition	This is the area of the benthos that was sampled for a given sample.
+Salmon River RCC Invertebrate MORPHO.xlsx	hasAttributeName	Habitat Notes
+Habitat Notes	hasAttributeLabel	Notes on the substrate and habitat of a particular sample
+Habitat Notes	hasAttributeDefinition	This reports the dominant substrate or habitat that was present at a given sampling location. Also, this indicates which invert sample that a detrital depletion sample was coupled with.
+Salmon River RCC Invertebrate MORPHO.xlsx	hasAttributeName	ID notes
+ID notes	hasAttributeLabel	Notes about the old taxonomic name for a particular organism
+ID notes	hasAttributeDefinition	Between the 1970s and the present, taxonomic names have changed. The name reported here is the name originally reported in the RCC publications, which has been updated in the genus column.
+RowClass	hasDataTable	1308246069122
+1308246069122	hasEntity	Breakdown of how samples were processed and size fractionated
+1308246069122	hasEntityDescription	This is a table that summarizes how and which samples were size fractionated each year
+1308246069137	hasMeasurementType	MM-YYYY
+1308246069153	hasMeasurementType	user defined
+1308246069169	hasMeasurementType	user defined
+Breakdown of how samples were processed and size fractionated	hasAttributeName	Sample Date
+Sample Date	hasAttributeLabel	The date a sample was taken
+Sample Date	hasAttributeDefinition	This is the date that sample was collected
+Breakdown of how samples were processed and size fractionated	hasAttributeName	Site
+Site	hasAttributeLabel	Study site name
+Site	hasAttributeDefinition	This is the RCC study site
+Breakdown of how samples were processed and size fractionated	hasAttributeName	Sample processing notes
+Sample processing notes	hasAttributeLabel	Notes on how and which samples were size fractionated
+Sample processing notes	hasAttributeDefinition	This describes the sampling method used. It also indicates which samples were size fractionated and picked.
